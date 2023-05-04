@@ -1,15 +1,11 @@
 class Disc {
-    active;
+    color;
     x;
     y;
 
     constructor(x, y) {
-        this.active = false;
+        this.color = 'white';
         this.x = x;
         this.y = y;
-    }
-
-    setActive() {
-        this.active = true;
     }
 }

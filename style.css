@@ -1,0 +1,29 @@
+canvas {
+    background-color: blue;
+}
+
+.game {
+    width: 775px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game .btn-reset {
+    width: 15%;
+    padding: 8px;
+    font-weight: 600;
+    background-color: rgb(24, 162, 24);
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: .8s;
+}
+
+.game .btn-reset:hover {
+    width: 20%;
+    position: static;
+    transition: .8s;
+}
